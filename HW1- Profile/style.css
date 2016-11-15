@@ -1,0 +1,18 @@
+
+h1{
+	font-family: Open Sans; 
+	color: gray;
+	text-align: center;
+	size: 100px;
+	
+}
+
+div{
+	font-family: "Open Sans";
+	text-align: center;
+	background: gray;
+	color: white;
+}
+a{
+	text-decoration-style: none;
+}
