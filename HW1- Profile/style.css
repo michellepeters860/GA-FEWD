@@ -1,18 +1,24 @@
 
-h1{
-	font-family: Open Sans; 
-	color: gray;
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background-color: #f9f9f9;
 	text-align: center;
-	size: 100px;
-	
+
 }
 
-div{
-	font-family: "Open Sans";
+h1{
+	color: gray;
 	text-align: center;
-	background: gray;
-	color: white;
+	font-size: 70px;
 }
+
+div p{
+	max-width: 600px;
+	margin:0 auto;
+}
+
 a{
-	text-decoration-style: none;
+	text-decoration: none;
+	text-align: center;
 }
