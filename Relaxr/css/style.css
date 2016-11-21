@@ -1,3 +1,138 @@
+body {
+  font-family: 'open-sans', sans-serif, 'arial';
+}
+
+.container {
+  background-image:url(http://i649.photobucket.com/albums/uu219/iamdavid0091/header_bg_zpscv4tijsk.jpg);
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.logo {
+  padding: 40px 0 40px 40px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.heroSection {
+  text-align: center;
+  padding-bottom: 125px;
+}
+
+.heroSection h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+
+.btn_primary,
+.btn_secondary {
+  border: none;
+  padding: 10px 50px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+
+.btn_primary {
+  background-color: #f9e42e;
+}
+
+.benefits {
+  font-size: 18px;
+  color: rgba(0,0,0,.54);
+  padding: 50px;
+}
+
+.benefits h3 {
+  color: rgba(0,0,0,.87);
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.benefit_list {
+  list-style: disc;
+  padding-left: 50px;
+  margin-top: 25px;
+  line-height: 28px;
+}
+
+.quote_container {
+  background-image: url(http://i649.photobucket.com/albums/uu219/iamdavid0091/testimonial_bg_zpsb7mq4ayl.jpg);
+  color: rgba(256, 256, 256, .7);
+  padding: 100px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.quote {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 38px;
+  font-family: 'lato', 'open-sans', sans-serif, 'arial';
+}
+
+#author {
+  margin-top: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cta {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.btn_secondary {
+  background-color: #033048;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background-color: rgba(0,0,0,.87);
+  color: rgba(256, 256, 256, .7);
+  font-size: 10px;
+}
+
+.footer_logo {
+  font-size: 30px;
+  color: #f9e42e;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.socialIcons {
+  padding: 40px 0;
+}
+
+.icon {
+  padding: 0 15px 50px;
+}
+
+/*
 body{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -141,3 +276,5 @@ footer p{
 	padding-top: 20px;
 	margin-left: 0px;
 }
+*/
+
