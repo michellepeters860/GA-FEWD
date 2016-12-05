@@ -51,11 +51,9 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
 
+
 }
 
-a {
-  text-decoration: none;
-}
 
 /******************************************
 /* LAYOUT
@@ -65,101 +63,50 @@ a {
 
 .header_container{
   background-color: navy;
-  overflow:auto;
-
+  padding: 50px;
 }
 
 .inner_container{
-max-width: 1026px;
-margin: auto;
-}
 
+}
 
 h1{
   font-size: 28px;
   color: white;
   float: left;
-  padding: 10px;
-  margin-left: 20px;
 }
 
-nav li{
+.navigation li{
   display: inline-block;
   color: yellow;
   float: right;
-  padding: 10px;
-  margin-right: 20px;
-  margin-top:10px;
-  font-weight:500;
+  padding: 10px; 
   
 }
 
-#main{
-  min-height:200px;
-  width:760px;
-  vertical-align:top;
-  display:inline-block;
-  padding: 20px;
-  margin-top: 30px;
-}
 
-#main h2{
-  color: navy;
-  font-size: 24px;
-  padding-top:20px;
-  padding-bottom: 10px;
-}
 
-#main p{
-  font-size: 14px;
-  font-weight:lighter;
-  padding-top: 10px;
-}
 
-#main a{
-  float:right;
-}
 
-#sidebar{
 
-   width:200px;
-   vertical-align:top;
-   display:inline-block;
-    padding: 20px;
-    margin-top: 50px;
-}
 
-h3{
-  font-weight: 600;
-  font-size: 18px;
-}
 
-.category ul{
-  font-weight: lighter;
-}
 
-.about p{
-   font-weight: lighter; 
-}
 
-.ad{
-  text-align: center;
-  background-color: white;
-  height: 300px;
-  margin-top: 10px;
-}
 
-.ad h4{
-  font-weight: 600px;
-  font-size: 18px;
-  padding-top: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_container {
   
-  
-}
-img{
-  width:700px;
-}
-
-.background{
-  background: #f9f9f9;
 }

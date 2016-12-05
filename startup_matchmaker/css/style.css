@@ -1,0 +1,138 @@
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+#logo{
+  background-color: black;
+  color:yellow;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#nav{
+  background-color: black;
+  color:white;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+}
+
+#nav li{
+  display: inline-block;
+  font-size: 18px;
+  padding-right: 15px;
+
+}
+
+ul span{
+  font-weight: bold;
+
+}
+
+.yellow_line{
+  height: 5px;
+  background-color: yellow;
+}
+.gray_container{
+  background-color: lightgray;
+  text-align: center;
+  font-size: 24px;
+  padding:20px;
+  font-style:italic;
+  font-weight: 600
+}
+
+.gray_container h3 span{
+  color: darkgray;
+  text-decoration: line-through;
+}
+
+u{
+  text-decoration-color: yellow;
+}
+
+img{
+  height: 400px;
+}
+
+.create_profile{
+  max-width: 230px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  background:rgba(255,255,255, 0.3);
+;
+
+  
+}
+
+.create_profile h2{
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.create_profile p{
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 20px;
+  max-width: 180px;
+}
+
+button{
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+.gray_btn{
+  width: 180px;
+}
+
+.yel_btn{
+  width: 200px;
+  background: yellow;
+  border-color: yellow;
+}
+
+
+#row{
+  background-color: white;
+}
+
+.column{
+  display:inline-block;
+  width:30%;
+  padding:20px;
+  margin-right:2%;
+  box-sizing:border-box;
+  margin: auto;
+  vertical-align: top;
+}
+
+.column h1{
+  font-size: 28px;
+  max-width: 180px;
+
+}
+.column p{
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 20px;
+}
+
+.column last-child{
+  margin: 0;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+footer p{
+  padding: 20px;
+}
