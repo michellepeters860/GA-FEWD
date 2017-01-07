@@ -1,0 +1,28 @@
+body{
+  background-color: #333333;
+}
+
+#input_area{
+  background-color: lightgray;
+  height: 1000px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px
+}
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: lightgray;
+  padding: 10px;
+  background: lightgray;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+form{
+  color:white;
+}

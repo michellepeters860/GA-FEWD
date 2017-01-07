@@ -1,5 +1,7 @@
 body{
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  
+  overflow: auto;
 }
 
 #logo{
@@ -52,19 +54,34 @@ u{
   text-decoration-color: yellow;
 }
 
-img{
-  height: 400px;
+/* background picture- need fucking help. */
+
+#picture{
+  overflow: auto;
+  background-image:url("https://postimg.org/image/f43rk2p3h/");
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .create_profile{
+  display: inline-block;
+  vertical-align: top;
   max-width: 230px;
   border-style: solid;
   border-color: black;
   padding: 20px;
   background:rgba(255,255,255, 0.3);
-;
+  margin-right: 30px;
+  float: right;
 
-  
 }
 
 .create_profile h2{
@@ -100,16 +117,17 @@ button{
 
 #row{
   background-color: white;
+  
 }
 
 .column{
   display:inline-block;
   width:30%;
   padding:20px;
-  margin-right:2%;
   box-sizing:border-box;
   margin: auto;
-  vertical-align: top;
+  vertical-align:top
+  
 }
 
 .column h1{
