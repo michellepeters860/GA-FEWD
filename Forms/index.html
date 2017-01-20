@@ -3,8 +3,9 @@
 
 <head>
   <title>Application page</title>
-  <link rel="resetsheet" href=" css/reset.css">
-  <link rel="stylesheet" href=" css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
+  <link rel="resetsheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -14,19 +15,40 @@
       <br>
       <input type="text" name="last_name" placeholder="Last name">
       <br>
-      <input type="text" name="email" placeholder="Email">
+      <input type="email" name="email" placeholder="Email">
       <br>
-      <input type="text" name="phonenumber" placeholder="Phone number">
+      <input type="tel" name="phonenumber" placeholder="Phone number">
       <br>
-    </form>
-      <section id="contact">
-    <p>How would you like to be contacted?</p>
-    <form>
-    <input type="radio" name="email" value="Email">Email
-      </form>
-  </section>
-  </div>
 
+      <div class="best_contact">
+        <label>Best way to contact?</label>
+        <br/>
+        Phone
+        <input type="radio" name="contactBy" value="phone" />
+        Email
+        <input type="radio" name="contactBy" value="email" />
+        <br />
+      </div>
+
+      <select name="position">
+        <option value="select_one">Select one</option>        
+        <option value="developer">Developer</option>
+        <option value="designer">Designer</option>
+        <option value="data">Database Engineer</option>
+      </select>
+
+      <label>Resume</label>
+      <input type="file" name="resume" />
+
+      
+      
+      
+  <textarea name="cover_letter" placeholder="Cover Letter" /></textarea>
+
+      <input type="submit" />
+
+  </div>
+  </form>
 
 
 </body>

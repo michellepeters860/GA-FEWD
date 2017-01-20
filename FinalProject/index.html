@@ -4,47 +4,58 @@
 <head>
   <title>in case you forgot</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
-  <link rel="resetsheet" href=" css/reset.css">
-  <link rel="stylesheet" href=" css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fakeLoader.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="JS/script.js"></script>
 </head>
 
-<body background="mountain.jpeg">
-  <header>
-    <div id="nav">
-      <ul>
-        <li><a href="index.html">REMIND ME</a></li>
-        <li><a href="Failure.html">FAILURE</a></li>
-        <li><a href="readMe.html">READ ME</a></li>
-        <li><a href="inspiration.html">INSPIRATION</a>
-      </ul>
-    </div>
-  </header>
-  <div id="forgot">
-    <h1>CHANGE YOUR DEFINITION</h1>
+<body class="index">
+  <div id="fakeLoader"></div>
+  <div id="nav">
+    <ul>
+      <li><a href="index.html">REMIND ME</a></li>
+      <li><a href="Failure.html">FAILURE</a></li>
+      <li><a href="readMe.html">READ ME</a></li>
+      <li><a href="inspiration.html">INSPIRATION</a>
+    </ul>
   </div>
+
+  <header id="forgot">
+    <h1>CHANGE YOUR DEFINITION</h1>
+  </header>
   <div id="definitions">
     <h3>BEAUTIFUL</h3>
     <h2>/'byoodefel/</h2>
-    <p>this is you.</p>
+    <h4>this is you.</h4>
     <h3>FEAR</h3>
     <h2>/'fir/</h2>
-    <p>motivation bigger than the usual. this is necessary for your growth.</p>
+    <h4>motivation bigger than the usual. this is necessary for your growth.</h4>
     <h3>STRENGTH</h3>
     <h2>/streng(k)th/</h2>
-    <p>trust me. you got this. <span>never</span> give up.</p>
+    <h4>trust me. you got this. <span>never</span> give up.</h4>
     <h3>LOVE</h3>
     <h2>/lev/</h2>
-    <p>nothing greater than this.</p>
+    <h4>there's nothing greater than this.</h4>
     <h3>PASSION</h3>
     <h2>/'paSHen/</h2>
-    <p>the purpose of our existence. what is yours?</p>
+    <h4>the purpose of our existence. what is yours?</h4>
     <h3></h3>
     <h2></h2>
-    <p></p>
+    <h4></h4>
   </div>
   <div class="bottom_button">
     <a href="#" type="button">dust yourself off</a>
   </div>
+<script type="text/javascript">
+$("#fakeLoader").fakeLoader({
+
+zIndex:"999",//Default zIndex
+spinner:"spinner1",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+bgColor:"#333", //Hex, RGB or RGBA colors
+});
+</script>
 </body>
 
 </html>

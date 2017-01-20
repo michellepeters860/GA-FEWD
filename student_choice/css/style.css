@@ -1,0 +1,61 @@
+body{
+background-color:#f9f9f9  
+}
+
+form{
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+input{
+  width:100%;
+  box-sizing: border-box;
+  margin: 10px;
+  padding:5px;
+    font-size: 18px;
+  color: #333;
+}
+
+input:last-child{
+  font-size: 18px;
+  color: white;
+  background-color: #333;
+  border-color: #333;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+#movie_details{
+  max-width: 80%;
+  background-color: white;
+  color: #333;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#movie_title{
+    font-size: 28px;
+}
+
+#movie_year{
+      font-size: 20px;
+}
+
+#movie_plot{
+      font-size: 18px;
+}
+
+#movie_list{
+  width:100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+img{
+  margin: auto;
+  height: 300px;
+  width: 200px;
+  padding: 50px;
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+
+	  <title>Pretty Forms</title>
+	  <meta name="description" content="forms">
+	  <meta name="author" content="form gods">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	
+	<link href="css/style.css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	
+	
+	</head>
+	<body>
+		<div class="container">
+			<form method="post" action="process.php">
+				<input name="first_name" placeholder="First Name"/><br>
+				<input name="last_name" placeholder="Last Name"/><br>	
+				<input name="email" placeholder="Email Address"/><br>
+				<input name="phonenumber" placeholder="Phone Number"/><br>
+			
+				<div class="best_contact">
+					<label>Best way to contact?</label><br />
+					Phone<input type="radio" name="contactBy" value="phone"/>
+					<br />
+					Email<input type="radio" name="contactBy" value="email"/>
+					<br />
+				</div>
+						
+				<select name="position">
+					<option value="developer">Developer</option>
+					<option value="designer">Designer</option>
+					<option value="data">Database Engineer</option>
+				</select>
+
+				<label>Resume</label>	
+				<input type="file" name="resume"/>				
+			
+				<textarea name="cover_letter" placeholder="Cover Letter"/></textarea>
+			
+				<input type="submit"/>
+			</form>
+		</div>
+	</body>
+</html>
+
+

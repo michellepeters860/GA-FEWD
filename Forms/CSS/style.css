@@ -1,28 +1,55 @@
-body{
+body {
   background-color: #333333;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-#input_area{
+#input_area {
   background-color: lightgray;
-  height: 1000px;
+  height: 630px;
   max-width: 600px;
   margin: auto;
-  margin-top: 100px;
-  padding: 20px
+  margin-top: 50px;
+  padding: 20px;
 }
 
-input{
+input {
   width: 100%;
   box-sizing: border-box;
   border-width: 1px;
   border-radius: 2px;
   border-color: lightgray;
   padding: 10px;
-  background: lightgray;
+  background: white;
   color: #333333;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+form {
+  color: #333;
+}
+
+.best_contact input {
+  display: inline-block;
+  padding: 50px;
+  width:30%;
+}
+
+select {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 20px;
 }
 
-form{
-  color:white;
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 75px;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: lightgray;
+    font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
 }
